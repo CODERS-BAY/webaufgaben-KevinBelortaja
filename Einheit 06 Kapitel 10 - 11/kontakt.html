@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Kontakt</title>
+</head>
+<body>
+
+    <header>
+        <h1>Zoo CodersBay</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="info.html">Info</a>
+        <a href="kontakt.html" class="active">Kontakt</a>
+    </nav>
+
+    <main>
+
+        <h2>Kontakt</h2>
+
+        <article>
+            <fieldset>
+                <legend>Kontaktieren Sie uns</legend>
+                
+                <form method="GET" action="ausgabe.html">
+                    <label for="vorname">Vorname</label>
+                    <br>
+                    <input type="text" name="vorname" id="vorname">
+                    <br>
+                    <label for="nachname">Nachname</label>
+                    <br>
+                    <input type="text" name="nachname" id="nachname">
+                    <br>
+                    <label for="besuchstag">Besuchstag</label>
+                    <br>
+                    <input type="date" name="besuchstag" id="besuchstag">
+                    <br>
+                    <label for="besuchszeit">Besuchszeit</label>
+                    <br>
+                    <input type="time" name="besuchszeit" id="besuchszeit">
+                    <br>
+                    <label for="gefallen">Wie sehr hat es Ihnen gefallen?</label>
+                    <br>
+                    <input type="range" min="1" max="100" value="50" name="gefallen" class="slider" id="slider">
+                    <br>
+                    <label for="weiterempfehlung">Würden Sie den Zoo weiterempfehlen</label>
+                    <br>
+                    <input type="radio" name="weiterempfehlung" id="ja">Ja
+                    <input type="radio" name="weiterempfehlung" id="nein">Nein
+                    <br>
+                    <label for="lieblingstierart">Welche Tierart hat Ihnen am besten gefallen?</label>
+                    <br>
+                    <input type="text" name="lieblingstierart" id="lieblingstierart" list="auswahl">
+                    <datalist id="auswahl">
+                        <option>Alpaka</option>
+                        <option>Biber</option>
+                        <option>Eisbär</option>
+                        <option>Tiger</option>
+                        <option>Ameise</option>
+                        <option>Biene</option>
+                        <option>Schmetterling</option>
+                        <option>Schnecke</option>
+                        <option>Guppy</option>
+                        <option>Neonsalmler</option>
+                        <option>Platy</option>
+                        <option>Black Molly</option>
+                        <option>Amsel</option>
+                        <option>Buntspecht</option>
+                        <option>Elster</option>
+                        <option>Kohlmeise</option>
+                        <option>Star</option>
+                        <option>Turmfalke</option>
+                    </datalist>
+                    <br>
+                    <label for="kommentar">Kommentar</label>
+                    <br>
+                    <textarea rows="5" cols="20" name="kommentar" id="kommentar"></textarea>
+                    <br>
+                    <label for="besucherinfo">Besucherinfo</label>
+                    <br>
+                    <select name="besucherinfo" id="besucherinfo">
+                        <option>Familienausflug</option>
+                        <option>Allein unterwegs</option>
+                        <option>Gruppenausflug</option>
+                        <option>Ausflug mit Freunden</option>
+                        <option>was anderes</option>
+                    </select>
+                    <br>
+                    <input  type="submit" value="Senden">
+                    <input type="reset" value="Reset">
+
+                </form>
+            </fieldset>
+        </article>
+
+    </main>
+
+    <footer>
+        <p class="footer"> Klicken Sie <a target="_blank" href="https://www.microsoft.com/de-at">hier</a> um auf eine großartige Seite zu gelangen</p>
+        
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url(../images/koala.jpg);
+    background-attachment: fixed;
+    padding-bottom: 500px;
+    background-size: cover;
+    min-height: 100px;
+}
+
+header h1 {
+    text-align: center;
+    color: cadetblue;
+    background-color: rgba(124, 50, 50,.55);
+    padding: 5px 0;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 5px 0 10px 0;
+    padding: 10px 0;
+    background-color: lightblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+a:first-child {
+    margin-left: 0;
+}
+
+.active {
+    color: darkmagenta;
+}
+
+label {
+    color: rgb(124, 50, 50);
+}
+
+th{
+    background-color: #83DAC5;
+    padding: 7px 0;
+}
+
+td:nth-of-type(2n){
+    padding: 5px 0;
+}
+
+tr:nth-of-type(2n){
+    background-color: rgba(44, 46, 45, 0.3);
+}
+
+tr:nth-of-type(2n + 1){
+    background-color: rgba(247, 245, 240, 0.3);
+}
+
+#home {
+    margin: 0 0 10px 0;
+    background-color: rgba(218, 165, 32,.15);
+    border-radius: 0 0 20px 20px;
+    padding: 10px 15px;
+    border: hotpink;
+    border-color: lawngreen;
+}
+
+#home::first-letter {
+    color: red;
+    font-size: 30px;
+    line-height: 0;
+}
+
+h2 {
+    font-family: Merriweather;
+    text-align: center;
+    color: lightseagreen;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    text-shadow: aqua 3px 2px 3px;
+}
+
+h3 {
+    color: lightsteelblue;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider:hover {
+    opacity: 1;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+fieldset {
+    text-align: center;
+    margin: 0 320px;
+    border-radius: 35px;
+}
+
+input, textarea, select {
+    margin: 5px 0 20px 0;
+    width: 200px;
+    text-align: center;
+}
+
+legend {
+    color: rgb(124, 50, 50);
+    font-size: 25px;
+}
+
+.video {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+dt {
+    text-align: center;
+    padding: 20px 0 5px 0;
+    color: coral;
+}
+
+dd {
+    text-align: center;
+    margin-left: 0;
+}
+
+footer {
+    background-color: rgb(0, 0, 0,.8);
+    padding: 20px;
+    color: white;
+}
+
+a {
+    color: blueviolet;
+}
+
+h2::first-letter,h3::first-letter,h1::first-letter {
+    color: rgb(255, 0, 0,.7);
+}
+
+.footer::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f5d1";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.animal {
+    text-align: center;
+    list-style-type: upper-roman;
+}
+
+p {
+    font-family: Montserrat;
+}
